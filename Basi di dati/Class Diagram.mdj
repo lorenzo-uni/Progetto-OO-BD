@@ -152,7 +152,7 @@
 											"top": 149,
 											"width": 239,
 											"height": 13,
-											"text": "-Descrizione: String[0..1]",
+											"text": "-Descrizione: String[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -169,7 +169,7 @@
 											"top": 164,
 											"width": 239,
 											"height": 13,
-											"text": "-Marca: String[1]",
+											"text": "-Marca: Marche[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -237,7 +237,7 @@
 											"top": 224,
 											"width": 239,
 											"height": 13,
-											"text": "-Saldo: int[0..1]",
+											"text": "-Saldo: int[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1886,7 +1886,7 @@
 											"top": 614,
 											"width": 199,
 											"height": 13,
-											"text": "-NomeDitta: String[1]",
+											"text": "-Nome: String[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -3146,7 +3146,7 @@
 							"name": "Descrizione",
 							"visibility": "private",
 							"type": "String",
-							"multiplicity": "0..1"
+							"multiplicity": "1"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3156,7 +3156,9 @@
 							},
 							"name": "Marca",
 							"visibility": "private",
-							"type": "String",
+							"type": {
+								"$ref": "AAAAAAFvhhoVt71Lh18="
+							},
 							"multiplicity": "1"
 						},
 						{
@@ -3205,7 +3207,7 @@
 							"name": "Saldo",
 							"visibility": "private",
 							"type": "int",
-							"multiplicity": "0..1"
+							"multiplicity": "1"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3628,7 +3630,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFvhe/ahrKBMuI="
 							},
-							"name": "NomeDitta",
+							"name": "Nome",
 							"visibility": "private",
 							"type": "String",
 							"multiplicity": "1"
