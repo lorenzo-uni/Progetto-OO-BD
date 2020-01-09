@@ -1191,7 +1191,7 @@
 											"top": 149,
 											"width": 254,
 											"height": 13,
-											"text": "-/CostoTotale[1]",
+											"text": "-/CostoTotale: float[1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1396,9 +1396,9 @@
 										"$ref": "AAAAAAFvhe3P7K8O1tI="
 									},
 									"font": "Arial;13;0",
-									"left": 571,
+									"left": 570,
 									"top": 274,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -1458,9 +1458,9 @@
 										"$ref": "AAAAAAFvhe3P7K8PhtY="
 									},
 									"font": "Arial;13;0",
-									"left": 880,
+									"left": 879,
 									"top": 274,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -1656,7 +1656,7 @@
 											"top": 390,
 											"width": 151,
 											"height": 13,
-											"text": "-Quantità",
+											"text": "-Quantità: int[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1673,7 +1673,7 @@
 											"top": 405,
 											"width": 151,
 											"height": 13,
-											"text": "-/Costo",
+											"text": "-/Costo: float[1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1903,7 +1903,7 @@
 											"top": 629,
 											"width": 199,
 											"height": 13,
-											"text": "-Indirizzo[1]",
+											"text": "-Indirizzo: String[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1920,7 +1920,7 @@
 											"top": 644,
 											"width": 199,
 											"height": 13,
-											"text": "-PartitaIva[1]",
+											"text": "-PartitaIva: String[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1937,7 +1937,7 @@
 											"top": 659,
 											"width": 199,
 											"height": 13,
-											"text": "-NumeroDiTelefono[0..1]",
+											"text": "-NumeroDiTelefono: String[0..1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2167,9 +2167,9 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1019,
+									"left": 1018,
 									"top": 450,
-									"width": 12.65087890625,
+									"width": 14,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -2208,9 +2208,9 @@
 										"$ref": "AAAAAAFvhfV+wLQhCdg="
 									},
 									"font": "Arial;13;0",
-									"left": 1050,
+									"left": 1049,
 									"top": 446,
-									"width": 5.05908203125,
+									"width": 7,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3444,6 +3444,7 @@
 							},
 							"name": "CostoTotale",
 							"visibility": "private",
+							"type": "float",
 							"multiplicity": "1",
 							"isDerived": true
 						}
@@ -3521,7 +3522,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFvheomd6kYfo4="
 							},
-							"name": "Quantità"
+							"name": "Quantità",
+							"type": ""
 						}
 					]
 				},
@@ -3556,7 +3558,8 @@
 							},
 							"name": "Quantità",
 							"visibility": "private",
-							"type": ""
+							"type": "int",
+							"multiplicity": "1"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3566,7 +3569,8 @@
 							},
 							"name": "Costo",
 							"visibility": "private",
-							"type": "",
+							"type": "float",
+							"multiplicity": "1",
 							"isDerived": true
 						}
 					]
@@ -3637,6 +3641,7 @@
 							},
 							"name": "Indirizzo",
 							"visibility": "private",
+							"type": "String",
 							"multiplicity": "1"
 						},
 						{
@@ -3647,6 +3652,7 @@
 							},
 							"name": "PartitaIva",
 							"visibility": "private",
+							"type": "String",
 							"multiplicity": "1"
 						},
 						{
@@ -3657,6 +3663,7 @@
 							},
 							"name": "NumeroDiTelefono",
 							"visibility": "private",
+							"type": "String",
 							"multiplicity": "0..1"
 						}
 					]
