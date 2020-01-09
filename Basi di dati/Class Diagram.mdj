@@ -1361,7 +1361,7 @@
 											"top": 149,
 											"width": 254,
 											"height": 13,
-											"text": "-/CostoTotale: float[1]",
+											"text": "-/ValoreTotale: float[1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1843,7 +1843,7 @@
 											"top": 429,
 											"width": 151,
 											"height": 13,
-											"text": "-/Costo: float[1]",
+											"text": "-/Valore: float[1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2095,23 +2095,6 @@
 										},
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAFvizI+SAAK/Nc=",
-											"_parent": {
-												"$ref": "AAAAAAFvhe/ah7KJCU0="
-											},
-											"model": {
-												"$ref": "AAAAAAFvizI+IAAErFM="
-											},
-											"font": "Arial;13;0",
-											"left": 1477,
-											"top": 659,
-											"width": 199,
-											"height": 13,
-											"text": "-Infrastruttura: String[1]",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFvizJH2gAu+2s=",
 											"_parent": {
 												"$ref": "AAAAAAFvhe/ah7KJCU0="
@@ -2121,7 +2104,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1477,
-											"top": 674,
+											"top": 659,
 											"width": 199,
 											"height": 13,
 											"text": "-Via: String[1]",
@@ -2138,7 +2121,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1477,
-											"top": 689,
+											"top": 674,
 											"width": 199,
 											"height": 13,
 											"text": "-NumeroCivico: String[1]",
@@ -2155,7 +2138,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1477,
-											"top": 704,
+											"top": 689,
 											"width": 199,
 											"height": 13,
 											"text": "-CAP: String[1]",
@@ -2166,7 +2149,7 @@
 									"left": 1472,
 									"top": 609,
 									"width": 209,
-									"height": 113
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -2179,7 +2162,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1472,
-									"top": 722,
+									"top": 707,
 									"width": 209,
 									"height": 10
 								},
@@ -3632,7 +3615,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFvhcmk5KgR244="
 							},
-							"name": "CostoTotale",
+							"name": "ValoreTotale",
 							"visibility": "private",
 							"type": "float",
 							"multiplicity": "1",
@@ -3757,7 +3740,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFvhe42La+eBPk="
 							},
-							"name": "Costo",
+							"name": "Valore",
 							"visibility": "private",
 							"type": "float",
 							"multiplicity": "1",
@@ -3844,17 +3827,6 @@
 							"visibility": "private",
 							"type": "String",
 							"multiplicity": "0..1"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAFvizI+IAAErFM=",
-							"_parent": {
-								"$ref": "AAAAAAFvhe/ahrKBMuI="
-							},
-							"name": "Infrastruttura",
-							"visibility": "private",
-							"type": "String",
-							"multiplicity": "1"
 						},
 						{
 							"_type": "UMLAttribute",
