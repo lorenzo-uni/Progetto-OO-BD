@@ -1754,7 +1754,7 @@
 											"top": 391,
 											"width": 151,
 											"height": 13,
-											"text": "CompTransazione"
+											"text": "ComposizioneTransazione"
 										},
 										{
 											"_type": "LabelView",
@@ -1787,7 +1787,7 @@
 									"font": "Arial;13;0",
 									"left": 1104,
 									"top": 384,
-									"width": 161,
+									"width": 173.97265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFvhe42Lq+iP0U="
@@ -3706,7 +3706,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "CompTransazione",
+					"name": "ComposizioneTransazione",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociationClassLink",
